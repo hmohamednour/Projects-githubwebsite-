@@ -1,0 +1,66 @@
+LOGO
+    HTML part
+        <div class ="sacdo">
+                    <p>Sudanese American Community Development Organization</p>
+                </div>
+                <div class="ohio">
+                    <p>of Ohio</p>
+
+CSS part
+                    .sacdo{
+                        transform: translateY(130%);
+                        text-align:justify;
+                        position: absolute;
+                        text-transform: uppercase;
+                        
+                       
+                    }
+                    .ohio{
+                        transform: translateY(810%);
+                        text-transform: uppercase;
+                        margin: top 0;
+                    }
+
+BUTTON CODE 
+        HTML
+        <div>
+            <button type="button"><span></span>Donate</button>
+            <button type="button"><span></span>Like</button>
+        </div>
+        
+        CSS 
+            span{
+                background: #009688;
+                height: 100%;
+                width: 0;
+                border-radius: 25px;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                z-index: -1;
+                transition: 0.5s;
+            }    
+
+             button:hover span{
+                width: 100%;
+            }
+            button:hover{
+                border: none;
+            }
+           
+            button{
+                    width: 200px;
+                    padding: 15px 0;
+                    text-align: center;
+                    margin: 20px 10px;
+                    border-radius: 25px;
+                    font-weight: bold;
+                    border: 2px solid #00961e;
+                    background: transparent;
+                    color: #fff;
+                    cursor: pointer;
+                    position: relative;
+                    overflow: hidden;
+        }
+                
+            
